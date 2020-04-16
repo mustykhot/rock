@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="image/WhatsApp Image 2020-03-30 at 3.44.24 PM.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="container">
+            <h1 id="d">Let's Play</h1>
+            <input type="submit" id="rock" onclick="play_1()" value="Rock">
+            <input type="submit" id="paper" onclick="play_2()" value="Paper">
+            <input type="submit" id="scissors" onclick="play_3()" value="Scissors">
+            <p id="turn">Turn(s)  : <span id="turns">0</span></p>
+            <p id="comp_messag">Computer's pick : <span id="comp_message"></span></p>
+            <p id="player_messag">Player's pick : <span id="player_message"></span></p>
+            <p id="comp_scor">Compuer score: <span id="comp_score"></span></p>
+            <p id="player_scor">Player score: <span id="player_score"></span></p>
+            <h2 id="win"></h2>
+
+            <input type="submit" id="new" onclick="newGame()" value="Start New">
+            
+
+    </div>
+    
+
+
+    <script src="script.js" ></script>
+</body>
+</html>
